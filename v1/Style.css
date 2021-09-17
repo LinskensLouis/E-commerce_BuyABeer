@@ -1,0 +1,191 @@
+.page {
+    background-color: rgb(60, 63, 66);
+    height: 480px;
+    width: 270px;
+    margin: auto;
+    border: 3px black solid;
+    overflow: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 10px;
+    height: 75px;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.burger {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    border: 0px rgba(0, 0, 0, 0) solid;
+}
+
+.search {
+    height: 40px;
+    width: 190px;
+    border-radius: 20px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+
+.logo {
+    height: 95%;
+    width: 95%;
+}
+
+.logo2 {
+    height: 85%;
+    width: 85%;
+}
+
+.categories {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.categories div {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+
+.tendances {
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: center;
+    margin-top: 15px;
+}
+
+.tendances div {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+
+.licorne {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+    margin: auto;
+}
+
+.bierasse {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+    margin: auto;
+}
+
+.product {
+    height: 230px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.product div {
+    height: 55px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px black solid;
+    margin-bottom: 10px;
+}
+
+.article {
+    height: 180px;
+    width: 180px;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.caroussel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.cercle {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 1px black solid;
+    margin: 3px;
+}
+
+.title {
+    width: 150px;
+    height: 30px;
+    border: 1px black solid;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 180px;
+    margin: auto;
+}
+
+.price {
+    width: 40px;
+    height: 20px;
+    border: 1px black solid;
+}
+
+.similaires {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.similaires div {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+}
+
+.separate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+div .retour {
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px black solid;
+}
